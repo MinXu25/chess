@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="board">
+            <div class="square square--light" id="a8">
+                <img src="./images/castle_lt.svg" alt="" id="castle1_lt">
+            </div>
+            <div class="square square--dark" id="b8">
+                <img src="./images/horse_lt.svg" alt="" id="horse1_lt">
+            </div>
+            <div class="square square--light" id="c8">
+                <img src="./images/bishop_lt.svg" alt="" id="bishop1_lt">
+            </div>
+            <div class="square square--dark" id="d8">
+                <img src="./images/king_lt.svg" alt="" id="king_lt">
+            </div>
+            <div class="square square--light" id="e8">
+                <img src="./images/queen_lt.svg" alt="" id="queen_lt">
+            </div>
+            <div class="square square--dark" id="f8">
+                <img src="./images/bishop_lt.svg" alt="" id="bishop2_lt">
+            </div>
+            <div class="square square--light" id="g8">
+                <img src="./images/horse_lt.svg" alt="" id="horse2_lt">
+            </div>
+            <div class="square square--dark" id="h8">
+                <img src="./images/castle_lt.svg" alt="" id="castle2_lt">
+            </div>
+            <div class="square square--dark" id="a7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn1_lt">
+            </div>
+            <div class="square square--light" id="b7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn2_lt">
+            </div>
+            <div class="square square--dark" id="c7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn3_lt">
+            </div>
+            <div class="square square--light" id="d7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn4_lt">
+            </div>
+            <div class="square square--dark" id="e7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn5_lt">
+            </div>
+            <div class="square square--light" id="f7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn6_lt">
+            </div>
+            <div class="square square--dark" id="g7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn7_lt">
+            </div>
+            <div class="square square--light" id="h7">
+                <img src="./images/pawn_lt.svg" alt="" id="pawn8_lt">
+            </div>
+            <div class="square square--light" id="a6"></div>
+            <div class="square square--dark" id="b6"></div>
+            <div class="square square--light" id="c6"></div>
+            <div class="square square--dark" id="d6"></div>
+            <div class="square square--light" id="e6"></div>
+            <div class="square square--dark" id="f6"></div>
+            <div class="square square--light" id="g6"></div>
+            <div class="square square--dark" id="h6"></div>
+            <div class="square square--dark" id="a5"></div>
+            <div class="square square--light" id="b5"></div>
+            <div class="square square--dark" id="c5"></div>
+            <div class="square square--light" id="d5"></div>
+            <div class="square square--dark" id="e5"></div>
+            <div class="square square--light" id="f5"></div>
+            <div class="square square--dark" id="g5"></div>
+            <div class="square square--light" id="h5"></div>
+            <div class="square square--light" id="a4"></div>
+            <div class="square square--dark" id="b4"></div>
+            <div class="square square--light" id="c4"></div>
+            <div class="square square--dark" id="d4"></div>
+            <div class="square square--light" id="e4"></div>
+            <div class="square square--dark" id="f4"></div>
+            <div class="square square--light" id="g4"></div>
+            <div class="square square--dark" id="h4"></div>
+            <div class="square square--dark" id="a3"></div>
+            <div class="square square--light" id="b3"></div>
+            <div class="square square--dark" id="c3"></div>
+            <div class="square square--light" id="d3"></div>
+            <div class="square square--dark" id="e3"></div>
+            <div class="square square--light" id="f3"></div>
+            <div class="square square--dark" id="g3"></div>
+            <div class="square square--light" id="h3"></div>
+            <div class="square square--light" id="a2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn1_dk">
+            </div>
+            <div class="square square--dark" id="b2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn2_dk">
+            </div>
+            <div class="square square--light" id="c2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn3_dk">
+            </div>
+            <div class="square square--dark" id="d2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn4_dk">
+            </div>
+            <div class="square square--light" id="e2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn5_dk">
+            </div>
+            <div class="square square--dark" id="f2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn6_dk">
+            </div>
+            <div class="square square--light" id="g2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn7_dk">
+            </div>
+            <div class="square square--dark" id="h2">
+                <img src="./images/pawn_dk.svg" alt="" id="pawn8_dk">
+            </div>
+            <div class="square square--dark" id="a1">
+                <img src="./images/castle_dk.svg" alt="" id="castle2_dk">
+            </div>
+            <div class="square square--light" id="b1">
+                <img src="./images/horse_dk.svg" alt="" id="horse2_dk">
+            </div>
+            <div class="square square--dark" id="c1">
+                <img src="./images/bishop_dk.svg" alt="" id="bishop2_dk">
+            </div>
+            <div class="square square--light" id="d1">
+                <img src="./images/king_dk.svg" alt="" id="king_dk">
+            </div>
+            <div class="square square--dark" id="e1">
+                <img src="./images/queen_dk.svg" alt="" id="queen_dk">
+
+            </div>
+            <div class="square square--light" id="f1">
+                <img src="./images/bishop_dk.svg" alt="" id="bishop1_dk">
+            </div>
+            <div class="square square--dark" id="g1">
+                <img src="./images/horse_dk.svg" alt="" id="horse1_dk">
+            </div>
+            <div class="square square--light" id="h1">
+                <img src="./images/castle_dk.svg" alt="" id="castle1_dk">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
